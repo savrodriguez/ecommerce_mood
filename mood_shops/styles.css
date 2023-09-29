@@ -1,0 +1,124 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.page-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 20px;
+
+    background-color: rgb(130, 172, 197);
+    font-size: 18px;
+    font-family: Georgia;
+    color:rgb(246, 243, 243);
+}
+
+.page-header h4{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 22px;
+    margin: auto;
+}
+
+.page-header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    font-size: 15px;
+    color: whitesmoke;
+
+    transition: background-color 0.3s;
+}
+
+.page-header ul:hover {
+    background-color: tomato;
+    border: none;
+    border-radius: 8px;
+}
+
+.page-header a {
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+
+    color: white
+}
+
+.items {
+    width: 80%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.items img{
+    width: 100%;
+    height: auto;
+
+    padding-top: 10%;
+    border: none;
+    border-radius: 12px;
+}
+
+.items p {
+    font-family: Optima;
+    color: rgb(31, 31, 31);
+    font-size: 12px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.items button{
+    background-color: rgb(79, 79, 79);
+    border: none;
+    border-radius: 8px;
+    
+    color: rgb(255, 255, 255);
+    font-family: Georgia;
+    font-size: 10px;
+
+    padding: 5px 10px;
+    margin-top: auto;
+}
+
+footer {
+    font-family: Georgia;
+    color: rgb(69, 69, 69);
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    
+    padding-top: 10%;
+    padding-bottom: 8%;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+button:hover {
+    background-color: tomato;
+    color: white;
+
+    border:none;
+    border-radius: 8px;
+}
+
